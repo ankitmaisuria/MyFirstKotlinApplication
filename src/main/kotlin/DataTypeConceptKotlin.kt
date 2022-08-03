@@ -39,6 +39,7 @@ fun stringDemo(){
     println("Output - ${str.drop(5)}")
     println("Output - ${str.dropLast(5)}")
     println("Output - ${str.filter {c: Char -> true  }}")
+    println("Output -- ${str.reversed()}")
 }
 
 fun intDemo(){
